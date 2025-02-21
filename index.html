@@ -7,21 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>3D Causal Graph</h1>
+  <header>
+    <h1>3D Causal Graph</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  
   <p>Below is the bike model:</p>
   <!-- 3D Model Canvas -->
   <canvas id="three-canvas"></canvas>
-
+  
   <!-- Load Three.js, GLTFLoader and OrbitControls from CDN -->
   <script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/loaders/GLTFLoader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@latest/examples/js/controls/OrbitControls.js"></script>
   <!-- Load our custom script -->
   <script src="script.js"></script>
-  <nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-</nav>
 </body>
 </html>
