@@ -33,7 +33,7 @@ scene.add(hemisphereLight);
 // Load the bike model using GLTFLoader
 const loader = new THREE.GLTFLoader();
 let bikeModel;
-const modelURL = 'https://Surajcuriousanimator.github.io/threejs-website/models/Bike.glb';
+const modelURL = 'https://Surajcuriousanimator.github.io/3d-causal-graph/models/Bike.glb';
 loader.load(
   modelURL,
   (gltf) => {
